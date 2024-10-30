@@ -1,5 +1,3 @@
-# htmltags.py
-
 # Décorateur pour appliquer la balise <b> (gras)
 def html_bold(func):
     def wrapper(*args, **kwargs):
